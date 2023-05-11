@@ -16,7 +16,7 @@ import java.util.Map;
 @Component
 public class BotCountStreamProcessor {
 
-    private static final String BOT_COUNT_STORE = "bot-count-store";
+    public static final String BOT_COUNT_STORE = "bot-count-store";
     private static final String BOT_COUNT_TOPIC = "wikimedia.stats.bots";
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 

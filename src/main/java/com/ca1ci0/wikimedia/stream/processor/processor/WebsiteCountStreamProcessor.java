@@ -16,7 +16,7 @@ import java.util.Map;
 @Component
 public class WebsiteCountStreamProcessor {
 
-    private static final String WEBSITE_COUNT_STORE = "website-count-store";
+    public static final String WEBSITE_COUNT_STORE = "website-count-store";
     private static final String WEBSITE_COUNT_TOPIC = "wikimedia.stats.website";
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 
